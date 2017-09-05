@@ -3,6 +3,8 @@
 [include]
 
 [libs]
+./node_modules
+./src
 
 [lints]
 

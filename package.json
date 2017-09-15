@@ -1,10 +1,10 @@
 {
   "main": "dist/index.js",
   "scripts": {
-    "start": "nodemon src/index.js --exec babel-node --presets es2015,stage-0 --inspect=9229 --watch src",
+    "start": "nodemon src/index.js --exec babel-node --presets es2015,stage-0 --watch src",
     "build": "babel src -d dist --presets es2015,stage-0",
     "serve": "node dist/index.js",
-    "test": "nodemon src/test.js --exec babel-node --presets es2015,stage-0 --inspect=9229 --watch src"
+    "test": "nodemon src/test.js --exec babel-node --presets es2015,stage-0 --watch src"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
